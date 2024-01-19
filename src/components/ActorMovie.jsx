@@ -2,6 +2,10 @@ import React,{Suspense} from 'react'
 import DiscoverSkeleton from './DiscoverSkeleton'
 import MovieCard from './MovieCard'
 const ActorMovie = ({data,title}) => {
+  if(data.length<1){
+    return;
+  }
+  
   return (
     <div className=''>
       <div className="font-bold mt-5 text-lg md:text-2xl lg:text-3xl pl-5 md:pl-8 md:mt-8 flex w-2/5 items-center justify-between"><span>{title}</span>
