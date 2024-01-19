@@ -2,7 +2,7 @@ import React,{Suspense} from 'react'
 import DiscoverSkeleton from './DiscoverSkeleton'
 import MovieCard from './MovieCard'
 const ActorMovie = ({data,title}) => {
-  if(data.length < 1){
+  if(data?.length < 1){
     return;
   }
   
