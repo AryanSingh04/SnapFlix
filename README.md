@@ -1,13 +1,13 @@
 
 <h1 align="center">
   <br>
-  <a href="http://www.amitmerchant.com/electron-markdownify"><img src="https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.png" alt="Markdownify" width="200"></a>
+  <a href="http://www.amitmerchant.com/electron-markdownify"><img src="https://github.com/AryanSingh04/SnapFlix/blob/caf25a57545026a5a2457fa006da79cb8157c9b3/logo512.png?raw=true" alt="SnapFLix" width="200"></a>
   <br>
-  Markdownify
+ SnapFlix
   <br>
 </h1>
 
-<h4 align="center">A minimal Markdown Editor desktop app built on top of <a href="http://electron.atom.io" target="_blank">Electron</a>.</h4>
+<h4 align="center">A minimal Movie info Website mase With <a href="https://www.themoviedb.org/" target="_blank">TMDB</a>.</h4>
 
 <p align="center">
   <a href="https://badge.fury.io/js/electron-markdownify">
