@@ -7,7 +7,7 @@ const Navbar = () => {
   const [query,setQuery] =useState("")
     const [isOpen, setOpen] = useState(false)
     const handleKeyPress = (e) => {
-      if(e.key == "Enter" && query!=""){
+      if(e.keyCode == "13" && query!=""){
         navigate("/search/"+query);
       }
     }
